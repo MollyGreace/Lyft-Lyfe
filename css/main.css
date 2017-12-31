@@ -1,0 +1,57 @@
+/* INDEX */
+.bg-index {
+  background: linear-gradient(to bottom right, #530060, #bf077e);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  text-align: center; 
+}
+
+.logo-index {
+  width: 15em;
+}
+
+
+/* VISTA HOME */
+
+.logo-home {
+  width: 5em;
+}
+
+.bg-home {
+  background-image: url(../assets/images/drive.jpg);
+  background-size: center center;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+
+.btn-color {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+/* COUNTRY */
+.icon-back {
+  color: black;
+}
+
+.select-country {
+  text-align: center;
+}
+
+
+/* VERIFY */
+.code {
+  
+  border: none;
+  border-bottom: dashed purple;
+  width: 33px;
+  letter-spacing: 0.3em;
+}
+/* COUNTRY */
+
+/* COUNTRY */
+
+/* COUNTRY */

@@ -1,3 +1,11 @@
+/* CLASES REUTILIZABLES */
+.icon-back {
+  color: #6e0b7eb2;
+  cursor: pointer;
+  margin-top: 10%;
+}
+
+
 /* INDEX */
 .bg-index {
   background: linear-gradient(to bottom right, #530060, #bf077e);
@@ -44,9 +52,6 @@
 }
 
 /* COUNTRY */
-.icon-back {
-  color: #530060;
-}
 
 .flag {
   width: 40%;
@@ -69,16 +74,28 @@
   text-align: center;
 }
 
+.desactive {
+  color: gainsboro;
+  background-color: gray;
+}
+ 
+.active {
+  color: white;
+  background:#bf077e; 
+}
+
 
 /* VERIFY */
-.code {
-  
+.code { 
   border: none;
   border-bottom: dashed purple;
   width: 33px;
   letter-spacing: 0.3em;
 }
 
+.form-center {
+  text-align: center;
+}
 
 /* DATA */
 

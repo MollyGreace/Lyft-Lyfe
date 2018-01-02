@@ -17,7 +17,7 @@
     <div class="row">
       <div class="col-xs-2">
         <span>
-          <i class="fa fa-chevron-left media-middle icon-back"></i>
+          <i class="fa fa-chevron-left icon-back"></i>
         </span>
       </div>
 
@@ -31,28 +31,37 @@
 
     <!--Selector país-->
     <div class="row">
-      <div class="col-xs-12 center-block">
-        <form action="form-verify" class="center-block ">
+      <div class="col-xs-12 form-center">
+        <form action="form-verify" class="">
 
           <label for="texto">LAB - </label>
-          <input type="text" name="code" id="code" class="code"><!--usar con dom/jquery para mostrar nro telefónico-->
-          <p>Enter the code sent to <p class="phone"></p> </p>
-          <button class="btn btn-default">Resend Code</button>
+          <input type="text" name="code" id="code" class="code">
+          <!--usar con dom/jquery para mostrar nro telefónico-->
+          <p>Enter the code sent to +52
+            <!-- <p class=""></p> -->
+          </p>
 
-          <button class="btn btn-lg col-xs-12 center-block">NEXT</button>
+          <div class="form-group">
+            <button class="btn btn-default">Resend Code</button>
+          </div>
+
+          <!-- <div class="form-group"> -->
+            <button class="btn-lg col-xs-12 center-block">NEXT</button>
+          <!-- </div> -->
 
         </form>
       </div>
     </div>
 
-    <div class="row"><!--hacer que cambie de color disabled/enabled-->
+    <div class="row">
+      <!--hacer que cambie de color disabled/enabled-->
     </div>
 
   </section>
 
   <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
   <!-- <script src="vendors/bootstrap/js/bootstrap.min.js"></script> -->
-  <script src="../js/app.js"></script>
+  <script src="../js/verify.js"></script>
 </body>
 
 </html>

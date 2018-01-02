@@ -1,12 +1,6 @@
-// $(document).ready(loadPage);
+$(document).ready(function() {
+  setTimeout(function() {
 
-// /* Declara Variables*/
-// var signUp = $('#sign-up');
-
-
-// /* Todas las funciones al cargar la página */
-
-// function loadPage() {
-//   $(signUp).click(window.location.href('../views/country.html'));
-// }
-
+    window.location.href = 'views/home.html';
+  }, 5000);
+});

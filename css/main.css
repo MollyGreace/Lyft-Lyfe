@@ -9,6 +9,7 @@
 
 .logo-index {
   width: 15em;
+  margin-top: 65%;
 }
 
 
@@ -18,12 +19,17 @@
   width: 5em;
 }
 
+.logo-lyft-lyfe {
+  width: -webkit-fill-available;
+}
+
 .bg-home {
   background-image: url(../assets/images/drive.jpg);
-  background-size: center center;
+  background-size: cover;
   width: 100%;
   height: 100vh;
   text-align: center;
+  display: grid;
 }
 
 .btn-color {

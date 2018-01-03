@@ -10,26 +10,25 @@ $(document).ready(function() {
   $phone.on('keyup', function() {
     if ($phone.val().length === 10) {   
       activeNext();
-    } 
+    } else {
+      desactiveNext();
+    }      
   });
-
-  /*else {
-    desactiveNext();
-  }*/
-  
   
   function activeNext() {
     $next.addClass('active');
     $next.prop('disabled', false);
   };
   
-  // function desactiveNext() {
-  //   $next.prop('disabled', true); 
-  //   $next.addClass('desactive');
-  // };
+  function desactiveNext() {
+    $next.prop('disabled', true); 
+    $next.addClass('desactive');
+  };
   
   $next.click(function() {
-    alert('Tu código: LAB - ' + code);
+    localStorage.randomCode = Math.round(Math.random() * (1000 - 1));
+    alert('Tu código: LAB - ' + localStorage.randomCode);    
+    // alert('Tu código: LAB - ' + code);
     window.location.href = '../views/verify.html';   
   });
 });

@@ -3,9 +3,13 @@ $(document).ready(function() {
     window.location.href = '../views/country.html';   
   });
 
-  var $nextView = $('.next');
-  
-  $nextView.click(function() {
+  var $next = $('.next');
+
+  var $resend = $('.resend');
+
+ 
+  $next.click(function() {
+    
     window.location.href = '../views/data.html';   
   });
 
